@@ -1,0 +1,14 @@
+[database]
+engine="django.db.backends.postgresql"
+host = "localhost"
+port = 5432
+username = "postgres"
+password = "gayu1007M"
+database_name = "BlogApplication"
+
+[image_validation]
+image_size = 3145728
+image_formats = ["jpg", "png","jpeg"]
+image_size_error = "Please upload an image file smaller than 3MB."
+image_format_error = "Please upload a JPG or PNG image."
+image_empty_error = "Image not exists!"
